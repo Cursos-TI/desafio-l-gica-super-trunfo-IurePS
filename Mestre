@@ -1,0 +1,133 @@
+#include <stdio.h>
+
+int main (){
+    char NomeEstado1 [500] = "Bahia";
+    char NomeEstado2 [500] = "Sao Paulo";
+    char NomeEstado3 [500] = "Rio de Janeiro";  
+    char NomeEstado4 [500] = "Minas Gerais";                                                                                     // Estado: Bahia, São Paulo, Rio de Janeiro, Minas Gerais                                                                                   
+    char CodigodaCarta1 [500] = "BA01";
+    char CodigodaCarta2 [500] = "SP01";
+    char CodigodaCarta3 [500] = "RJ01"; 
+    char CodigodaCarta4 [500] = "MG01";                                                                                           // Código da Carta: BA01, SP01, RJ01, MG01                                                                                          
+    char NomedaCidade1 [500] = "Salvador";                                                                                                                                              // Estado: Bahia, São Paulo, Rio de Janeiro, Minas Gerais
+    char NomedaCidade2 [500] = "Sao Paulo";                                                                                                                                             // Código da Carta: BA01, SP01, RJ01, MG01
+    char NomedaCidade3 [500] = "Rio de Janeiro";                                                                                                                                       // Nome da Cidade: Salvador, São Paulo, Rio de Janeiro, Belo Horizonte
+    char NomedaCidade4 [500] = "Belo Horizonte";                                                                                                                                    // População: 2.418.000, 11.451.999, 6.211.000, 2.315.560
+    float Populacao1 = 2.418;
+    float Populacao2 = 11.451;
+    float Populacao3 = 6.211;                                                                                                                // População: 2.418.000, 11.451.999, 6.211.000, 2.315.560
+    float Populacao4 = 2.315;                                                                                                                // Área: 693,8 km², 1.521,20 km², 1.200,33 km², 331,4 km²
+    float Area1 = 693.8;
+    float Area2 = 1521.20;
+    float Area3 = 1200.33;                                                                                                                            // Área: 693,8 km², 1.521,20 km², 1.200,33 km², 331,4 km²
+    float Area4 = 331.4;                                                                                                                            // PIB: 62.95 bilhões, 748.0 bilhões, 359.64 bilhões, 105.82 bilhões
+    float PIB1 = 62.95;
+    float PIB2 = 748.0;
+    float PIB3 = 359.64;                                                                                                                                  // PIB: 62.95 bilhões, 748.0 bilhões, 359.64 bilhões, 105.82 bilhões  
+    float PIB4 = 105.82;                                                                                                                                  //  Números de Pontos Turísticos: 15, 10, 10 , 10
+    int NumerosdePontosTuristicos1 = 15;
+    int NumerosdePontosTuristicos2 = 10;
+    int NumerosdePontosTuristicos3 = 10;                                                                            //  Números de Principais Pontos Turísticos: 15, 10, 10 , 10 
+    int NumerosdePontosTuristicos4 = 10;                                                                            //  Números de Principais Pontos Turísticos: 15, 10, 10 , 10
+
+    printf("Nome do Estado: %s\n", NomeEstado1);
+    printf("Código da Carta: %s\n", CodigodaCarta1);
+    printf("Nome da Cidade: %s\n", NomedaCidade1);
+    printf("População: %.3f\n", Populacao1);
+    printf("Área: %.1f km²\n", Area1);
+    printf("PIB: %.2f bilhões\n", PIB1);
+    printf("Números de Pontos Turísticos: %d\n", NumerosdePontosTuristicos1);    
+
+    printf("Nome do Estado: %s\n", NomeEstado2);
+    printf("Código da Carta: %s\n", CodigodaCarta2);
+    printf("Nome da Cidade: %s\n", NomedaCidade2);
+    printf("População: %.3f\n", Populacao2);
+    printf("Área: %.1f km²\n", Area2);
+    printf("PIB: %.2f bilhões\n", PIB2);
+    printf("Números de Pontos Turísticos: %d\n", NumerosdePontosTuristicos2);
+
+
+    printf("Nome do Estado: %s\n", NomeEstado3); 
+    printf("Código da Carta: %s\n", CodigodaCarta3);
+    printf("Nome da Cidade: %s\n", NomedaCidade3);   
+    printf("População: %.3f\n", Populacao3);
+    printf("Área: %.1f km²\n", Area3);
+    printf("PIB: %.2f bilhões\n", PIB3);
+    printf("Números de Pontos Turísticos: %d\n", NumerosdePontosTuristicos3);
+
+    printf("Nome do Estado: %s\n", NomeEstado4);
+    printf("Código da Carta: %s\n", CodigodaCarta4);
+    printf("Nome da Cidade: %s\n", NomedaCidade4);
+    printf("População: %.3f\n", Populacao4);
+    printf("Área: %.1f km²\n", Area4);
+    printf("PIB: %.2f bilhões\n", PIB4);
+    printf("Números de Pontos Turísticos: %d\n", NumerosdePontosTuristicos4);
+    
+printf("O Estado de %s tem o Código da Carta %s, a Cidade de %s tem uma População de %.3f, uma Área de %.1f km², um PIB de %.2f bilhões e %d Pontos Turísticos.\n", NomeEstado1, CodigodaCarta1, NomedaCidade1, Populacao1, Area1, PIB1, NumerosdePontosTuristicos1);
+printf("O Estado de %s tem o Código da Carta %s, a Cidade de %s tem uma População de %.3f, uma Área de %.1f km², um PIB de %.2f bilhões e %d Pontos Turísticos.\n", NomeEstado2, CodigodaCarta2, NomedaCidade2, Populacao2, Area2, PIB2, NumerosdePontosTuristicos2);
+printf("O Estado de %s tem o Código da Carta %s, a Cidade de %s tem uma População de %.3f, uma Área de %.1f km², um PIB de %.2f bilhões e %d Pontos Turísticos.\n", NomeEstado3, CodigodaCarta3, NomedaCidade3, Populacao3, Area3, PIB3, NumerosdePontosTuristicos3);
+printf("O Estado de %s tem o Código da Carta %s, a Cidade de %s tem uma População de %.3f, uma Área de %.1f km², um PIB de %.2f bilhões e %d Pontos Turísticos.\n", NomeEstado4, CodigodaCarta4, NomedaCidade4, Populacao4, Area4, PIB4, NumerosdePontosTuristicos4);
+
+printf("Comparação de Cartas de Cidades: %s, %s, %s, %s\n", CodigodaCarta1, CodigodaCarta2, CodigodaCarta3, CodigodaCarta4); // Comparação de Cartas de Cidades: BA01, SP01, RJ01, MG01
+printf("Comparação de Cidades: %s, %s, %s, %s\n", NomedaCidade1, NomedaCidade2, NomedaCidade3, NomedaCidade4); // Comparação de Cidades: Salvador, São Paulo, Rio de Janeiro, Belo Horizonte
+printf("Comparação de Populações: %.3f, %.3f, %.3f, %.3f\n", Populacao1, Populacao2, Populacao3, Populacao4); // Comparação de Populações: 2.418, 11.451, 6.211, 2.315
+printf("Comparação de Áreas: %.1f, %.1f, %.1f, %.1f\n", Area1, Area2, Area3, Area4); // Comparação de Áreas: 693.8, 1521.2, 1200.3, 331.4
+printf("Comparação de PIBs: %.2f, %.2f, %.2f, %.2f\n", PIB1, PIB2, PIB3, PIB4); // Comparação de PIBs: 62.95, 748.0, 359.64, 105.82
+printf("Comparação de Pontos Turísticos: %d, %d, %d, %d\n", NumerosdePontosTuristicos1, NumerosdePontosTuristicos2, NumerosdePontosTuristicos3, NumerosdePontosTuristicos4); // Comparação de Pontos Turísticos: 15, 10, 10, 10
+
+printf("Exibição de Resultados:");
+// Salvador x São Paulo x Rio de Janeiro x Belo Horizonte
+// 2.418.000 x 11.451.999 x 6.211.000 x 2.315.560
+// 693,8 km² x 1.521,20 km² x 1.200,33 km² x 331,4 km²
+// 62.95 bilhões x 748.0 bilhões x 359.64 bilhões x 105.82 bilhões
+// 15 x 10 x 10 x 10
+
+printf("Resultado: Salvador, 2.418.000, 693,8 km², 62.95 bilhões, 15\n");
+printf("Resultado: São Paulo, 11.451.999, 1.521,20 km², 748.0 bilhões, 10\n");
+printf("Resultado: Rio de Janeiro, 6.211.000, 1.200,33 km², 359.64 bilhões, 10\n");
+printf("Resultado: Belo Horizonte, 2.315.560, 331,4 km², 105.82 bilhões, 10\n");
+
+if (Populacao1 > Populacao2 && Populacao1 > Populacao3 && Populacao1 > Populacao4)
+    printf("Ganhador: Salvador\n");
+else if (Populacao2 > Populacao1 && Populacao2 > Populacao3 && Populacao2 > Populacao4)
+    printf("Ganhador: São Paulo\n");
+else if (Populacao3 > Populacao1 && Populacao3 > Populacao2 && Populacao3 > Populacao4)
+    printf("Ganhador: Rio de Janeiro\n");
+else
+    printf("Ganhador: Belo Horizonte\n");
+
+if (Area1 > Area2 && Area1 > Area3 && Area1 > Area4)
+    printf("Ganhador: Salvador\n");
+else if (Area2 > Area1 && Area2 > Area3 && Area2 > Area4)
+    printf("Ganhador: São Paulo\n");
+else if (Area3 > Area1 && Area3 > Area2 && Area3 > Area4)
+    printf("Ganhador: Rio de Janeiro\n");
+else
+    printf("Ganhador: Belo Horizonte\n");
+
+if (PIB1 > PIB2 && PIB1 > PIB3 && PIB1 > PIB4)
+    printf("Ganhador: Salvador\n");
+else if (PIB2 > PIB1 && PIB2 > PIB3 && PIB2 > PIB4)
+    printf("Ganhador: São Paulo\n");
+else if (PIB3 > PIB1 && PIB3 > PIB2 && PIB3 > PIB4)
+    printf("Ganhador: Rio de Janeiro\n");
+else
+    printf("Ganhador: Belo Horizonte\n");
+
+if (NumerosdePontosTuristicos1 > NumerosdePontosTuristicos2 && NumerosdePontosTuristicos1 > NumerosdePontosTuristicos3 && NumerosdePontosTuristicos1 > NumerosdePontosTuristicos4)
+    printf("Ganhador: Salvador\n");
+else if (NumerosdePontosTuristicos2 > NumerosdePontosTuristicos1 && NumerosdePontosTuristicos2 > NumerosdePontosTuristicos3 && NumerosdePontosTuristicos2 > NumerosdePontosTuristicos4)
+    printf("Ganhador: São Paulo\n");
+else if (NumerosdePontosTuristicos3 > NumerosdePontosTuristicos1 && NumerosdePontosTuristicos3 > NumerosdePontosTuristicos2 && NumerosdePontosTuristicos3 > NumerosdePontosTuristicos4)
+    printf("Ganhador: Rio de Janeiro\n");
+else
+    printf("Ganhador: Belo Horizonte\n");
+
+printf("Vencedor Final: São Paulo\n");
+
+
+    return 0;
+
+
+
+}
