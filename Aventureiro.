@@ -63,6 +63,43 @@ int main (){
     printf("PIB: %.2f bilhões\n", PIB4);
     printf("Números de Pontos Turísticos: %d\n", NumerosdePontosTuristicos4);
     
+printf("O Estado de %s tem o Código da Carta %s, a Cidade de %s tem uma População de %.3f, uma Área de %.1f km², um PIB de %.2f bilhões e %d Pontos Turísticos.\n", NomeEstado1, CodigodaCarta1, NomedaCidade1, Populacao1, Area1, PIB1, NumerosdePontosTuristicos1);
+printf("O Estado de %s tem o Código da Carta %s, a Cidade de %s tem uma População de %.3f, uma Área de %.1f km², um PIB de %.2f bilhões e %d Pontos Turísticos.\n", NomeEstado2, CodigodaCarta2, NomedaCidade2, Populacao2, Area2, PIB2, NumerosdePontosTuristicos2);
+printf("O Estado de %s tem o Código da Carta %s, a Cidade de %s tem uma População de %.3f, uma Área de %.1f km², um PIB de %.2f bilhões e %d Pontos Turísticos.\n", NomeEstado3, CodigodaCarta3, NomedaCidade3, Populacao3, Area3, PIB3, NumerosdePontosTuristicos3);
+printf("O Estado de %s tem o Código da Carta %s, a Cidade de %s tem uma População de %.3f, uma Área de %.1f km², um PIB de %.2f bilhões e %d Pontos Turísticos.\n", NomeEstado4, CodigodaCarta4, NomedaCidade4, Populacao4, Area4, PIB4, NumerosdePontosTuristicos4);
+
+printf("Comparação de Cartas de Cidades: %s, %s, %s, %s\n", CodigodaCarta1, CodigodaCarta2, CodigodaCarta3, CodigodaCarta4); // Comparação de Cartas de Cidades: BA01, SP01, RJ01, MG01
+printf("Comparação de Cidades: %s, %s, %s, %s\n", NomedaCidade1, NomedaCidade2, NomedaCidade3, NomedaCidade4); // Comparação de Cidades: Salvador, São Paulo, Rio de Janeiro, Belo Horizonte
+printf("Comparação de Populações: %.3f, %.3f, %.3f, %.3f\n", Populacao1, Populacao2, Populacao3, Populacao4); // Comparação de Populações: 2.418, 11.451, 6.211, 2.315
+printf("Comparação de Áreas: %.1f, %.1f, %.1f, %.1f\n", Area1, Area2, Area3, Area4); // Comparação de Áreas: 693.8, 1521.2, 1200.3, 331.4
+printf("Comparação de PIBs: %.2f, %.2f, %.2f, %.2f\n", PIB1, PIB2, PIB3, PIB4); // Comparação de PIBs: 62.95, 748.0, 359.64, 105.82
+printf("Comparação de Pontos Turísticos: %d, %d, %d, %d\n", NumerosdePontosTuristicos1, NumerosdePontosTuristicos2, NumerosdePontosTuristicos3, NumerosdePontosTuristicos4); // Comparação de Pontos Turísticos: 15, 10, 10, 10
+
+printf("Exibição de Resultados:");
+// Salvador - BA01 X São Paulo - SP01
+if (Populacao1 > Populacao2){
+    printf("A cidade de Salvador tem uma população maior que a cidade de São Paulo.\n");
+} else {
+    printf("A cidade de São Paulo tem uma população maior que a cidade de Salvador.\n");
+}
+// Rio de Janeiro - RJ01 X Belo Horizonte - MG01
+if (Area3 > Area4){
+    printf("A cidade do Rio de Janeiro tem uma área maior que a cidade de Belo Horizonte.\n");
+} else {
+    printf("A cidade de Belo Horizonte tem uma área maior que a cidade do Rio de Janeiro.\n");
+}
+// São Paulo - SP01 X Rio de Janeiro - RJ01
+if (PIB2 > PIB3){
+    printf("A cidade de São Paulo tem um PIB maior que a cidade do Rio de Janeiro.\n");
+} else {
+    printf("A cidade do Rio de Janeiro tem um PIB maior que a cidade de São Paulo.\n");
+}
+// Belo Horizonte - MG01 X Salvador - BA01
+if (NumerosdePontosTuristicos4 > NumerosdePontosTuristicos1){
+    printf("A cidade de Belo Horizonte tem mais pontos turísticos que a cidade de Salvador.\n");
+} else {
+    printf("A cidade de Salvador tem mais pontos turísticos que a cidade de Belo Horizonte.\n");
+}
 
 
     return 0;
